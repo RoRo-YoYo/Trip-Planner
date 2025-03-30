@@ -31,3 +31,17 @@ interest category, and a limit n; returns the (up to) n points-of-interest
 in the given category nearest the starting position. You can assume the
 starting position is at a road segment endpoint. Resolve ties however you
 want, and order points-of-interest within the list in any order you want.
+
+## Input Types
+
+The TripPlanner constructor must take two arguments:
+- A vector of raw road segments.
+- A vector or raw points-of-interest
+
+## Dependencies
+- import cons
+- import sbox_hash
+- import 'project-lib/dictionaries.rkt'
+- import 'project-lib/graph.rkt'
+- import 'project-lib/stack-queue.rkt'
+- import 'project-lib/binheap.rkt'
